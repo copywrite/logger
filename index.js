@@ -6,6 +6,7 @@ var Counter = require('passthrough-counter');
 var humanize = require('humanize-number');
 var bytes = require('bytes');
 var chalk = require('chalk');
+var moment = require('moment');
 
 /**
  * TTY check for dev format.
@@ -138,3 +139,11 @@ function time(start) {
     : Math.round(delta / 1000) + 's';
   return humanize(delta);
 }
+
+/**
+ * Show request timestamp
+ */
+
+ function timestamp(start) {
+   return moment(start).format('DD/MM/YYYY:HH:mm:ss');
+ }
