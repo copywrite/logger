@@ -1,8 +1,11 @@
 {
-  "name": "koa-logger",
+  "name": "koa-logger-ts",
   "description": "Logging middleware for koa",
-  "repository": "koajs/logger",
-  "version": "1.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koajs/logger.git"
+  },
+  "version": "0.0.2",
   "keywords": [
     "koa",
     "middleware",
@@ -31,5 +34,22 @@
     "humanize-number": "~0.0.1",
     "passthrough-counter": "^1.0.0",
     "moment": "^2.14.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/koajs/logger/issues"
+  },
+  "homepage": "https://github.com/koajs/logger#readme",
+  "main": "index.js",
+  "author": "copywrite",
+  "maintainers": [
+    "aheckmann <aaron.heckmann+github@gmail.com>",
+    "coderhaoxin <coderhaoxin@outlook.com>",
+    "dead_horse <dead_horse@qq.com>",
+    "eivifj <eivind.fjeldstad@gmail.com>",
+    "fengmk2 <fengmk2@gmail.com>",
+    "jongleberry <jonathanrichardong@gmail.com>",
+    "juliangruber <julian@juliangruber.com>",
+    "tejasmanohar <me@tejasmanohar.com>",
+    "tjholowaychuk <tj@vision-media.ca>"
+  ]
 }

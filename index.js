@@ -113,7 +113,8 @@ function log(ctx, start, len, err, event) {
     : event === 'close' ? chalk.yellow('-x-')
     : chalk.gray('-->')
 
-  console.log('  ' + upstream
+  console.log(timestamp(start)
+    + '  ' + upstream
     + ' ' + chalk.bold('%s')
     + ' ' + chalk.gray('%s')
     + ' ' + chalk[color]('%s')
